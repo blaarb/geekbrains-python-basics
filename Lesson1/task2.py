@@ -1,3 +1,9 @@
-time = int(input("Введите время в секундах:"))
+time = int(input("Введите время в секундах:\n"))
 
-print("Время в часах, минутах и секундах: {0}:{1}:{2}".format(hours, minutes, seconds))
+hour = time // 3600
+time %= 3600
+min = time // 60
+time %= 60
+
+
+print("Время в часах, минутах и секундах: %02d:%02d:%02d" % (hour, min, time))
