@@ -1,5 +1,3 @@
-import math
-
 income = float(input("Укажите размер выручки фирмы\n"))
 expenses = float(input("Укажите размер издержек\n"))
 
