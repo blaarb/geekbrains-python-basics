@@ -1,0 +1,14 @@
+Senior Data Engineer
+Алматы
+Workforce
+Зарплата 600 000 – 1000 000 тг
+
+Обязанности:
+- Разработка батчевых и онлайн процессов по импорту сырых данных с преобразованием в реляционный вид в DWH(Oracle) и/или Hadoop и/или ClickHouse;
+- Оптимизация процессов импорта
+
+Требования:
+- Отличное владение Python 3.6+;
+- Опыт работы с библиотеками: datetime, os, configparser, cx_Oracle, pickle, hashlib, json, logging, ntpath, time, kafka, sys, dateutil, pymssql, psycopg2, pymysql, lxml, httplib2, re, bson, paramiko, xml, csv, pandas, collections, shutil, psutil, socket, contextlib, requests, glob, io, subprocess, multiprocessing, xmltodict, base64;
+- Отличное владение SQL и реляционной алгеброй;
+- Опыт работы с Apache Hadoop, Apache Spark, ClickHouse;
