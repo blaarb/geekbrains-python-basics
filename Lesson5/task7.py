@@ -4,6 +4,7 @@
 #     for i in range(1, 11):
 #         task7_txt.write(f"firm_{i} 00{random.randint(0, 10)} "
 #                         f"{random.randint(1000, 10000)} {random.randint(1000, 10000)}\n")
+import json
 
 firms_dictionary = {}
 revenue_counter = 0
@@ -21,3 +22,6 @@ with open("task7.txt") as input_sequence:
 average_revenue = revenue_total / revenue_counter
 result_list = [firms_dictionary, {"average_profit": average_revenue}]
 print(result_list)
+
+with open("task7.json", "w") as task7_json:
+    json.dump(result_list, task7_json)
