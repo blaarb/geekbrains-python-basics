@@ -14,10 +14,8 @@ file_to_erase = open("task4_output.txt", "w")
 file_to_erase.close()
 
 with open("task4.txt") as source_file:
-    # print(source_file.encoding)
     for line in source_file:
         extracted_word = line.split()[0]
         numeral_number = line.split()[2]
         with open("task4_output.txt", "a") as output_file:
-            print(source_file.encoding)
             output_file.write(f"{numbers_eng2ru.get(extracted_word)} - {numeral_number}\n")
