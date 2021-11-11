@@ -30,6 +30,7 @@ class Car:
     def show_speed(self):
         print(f"Текущая скорость машины: {self.speed} км/ч.")
 
+
 class TownCar(Car):
 
     def show_speed(self):
@@ -38,8 +39,10 @@ class TownCar(Car):
         else:
             print(f"Текущая скорость машины: {self.speed} км/ч.")
 
+
 class SportCar(Car):
     pass
+
 
 class WorkCar(Car):
 
@@ -49,8 +52,10 @@ class WorkCar(Car):
         else:
             print(f"Текущая скорость машины: {self.speed} км/ч.")
 
+
 class PoliceCar(Car):
     is_police = True
+
 
 sport_car01 = SportCar()
 sport_car01.color = "red"
