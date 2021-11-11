@@ -5,8 +5,6 @@ class Worker:
     _income = {"wage": 42000, "bonus": 0}
 
 
-_income["wage"]
-
 class Position(Worker):
     def get_full_name(self):
         return f"Полное имя сотрудника: {self.name} {self.surname}"
