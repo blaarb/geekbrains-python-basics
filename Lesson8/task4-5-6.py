@@ -1,5 +1,3 @@
-from abc import ABC, abstractmethod
-
 class Warehouse:
 
     departments = {
@@ -16,7 +14,7 @@ class Warehouse:
         cls.departments.update({dept_key: mutable})
 
 
-class OrgTechUnit():
+class OrgTechUnit:
     name = ''
     paper_formats = ["A4", "A3", "B5", "b4"]
     voltage = 220
