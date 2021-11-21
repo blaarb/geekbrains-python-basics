@@ -24,10 +24,12 @@ class ComplexNumber:
             return f"{real_output} - {str(imaginary_output)[1:]}i"
         elif imaginary_output > 0:
             return f"{real_output} + {imaginary_output}i"
+        elif imaginary_output == 0:
+            return f"{real_output}"
 
 
-cn01 = ComplexNumber("3 + i")
-cn02 = ComplexNumber("2 - 2i")
+cn01 = ComplexNumber("-1 + i")
+cn02 = ComplexNumber("2 + 2i")
 
 print(cn01 + cn02)
 print(cn01 * cn02)
